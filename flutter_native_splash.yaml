@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/shara_white_logo.png
+  color_dark: "#000000"
+  image_dark: assets/images/shara_white_logo.png
+
+  android_12:
+    image: assets/images/shara_white_logo.png
+    icon_background_color: "#000000"
+    image_dark: assets/images/shara_white_logo.png
+    icon_background_color_dark: "#000000"

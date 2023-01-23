@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      json_serializable|json_serializable:
+        # This will only generate code for files
+        # that end with ".g.dart".
+        generate_for:
+          - "**/**.gen.dart"
+      freezed|freezed:
+        # This will only generate code for files
+        # that end with ".f.dart".
+        generate_for:
+          - "**/**.f.dart"
